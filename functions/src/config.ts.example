@@ -1,0 +1,18 @@
+export default {
+  region: 'asia-northeast1',
+  bucket: '***.appspot.com',
+  allowedConfigs = null
+  // allowedConfigs: {
+  //   small: {
+  //     width: 200,
+  //     height: 200,
+  //     fir: 'inside'
+  //   },
+  //   medium: {
+  //     width: 800,
+  //     height: 800,
+  //     fir: 'inside'
+  //   }
+  // },
+  cacheMaxAge: 60 * 60 * 24,
+}
